@@ -41,9 +41,9 @@ public class ChuyenDeDAOTest {
 
 		dao.insert(newCD);
 
-		ChuyenDe createdCD = dao.selectById("CĐtét");
+		ChuyenDe insertedCD = dao.selectById("CĐtét");
 
-		assertEquals(newCD.getTenCD(), createdCD.getTenCD());
+		assertTrue(insertedCD.equals(newCD));
 	}
 
 	@Test

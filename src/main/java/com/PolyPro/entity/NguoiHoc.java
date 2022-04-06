@@ -7,100 +7,116 @@ package com.PolyPro.entity;
 
 import com.PolyPro.helper.DateHelper;
 import java.util.Date;
+import java.util.Objects;
 
 /**
  *
  * @author NguyenTruongChinh
  */
 public class NguoiHoc {
-    
-    private String MaNH;
-    private String hoTen;
-    private Date ngaySinh;
-    private boolean gioiTinh;
-    private String dienThoai;
-    private String email;
-    private String ghiChu;
-    private String maNV;
-    private Date ngayDK = DateHelper.now();
-    
-    @Override
-    public String toString(){
-        return this.hoTen;
-    }
 
-    public String getMaNH() {
-        return MaNH;
-    }
+	private String MaNH;
+	private String hoTen;
+	private Date ngaySinh;
+	private boolean gioiTinh;
+	private String dienThoai;
+	private String email;
+	private String ghiChu;
+	private String maNV;
+	private Date ngayDK = DateHelper.now();
 
-    public void setMaNH(String MaNH) {
-        this.MaNH = MaNH;
-    }
+	@Override
+	public String toString() {
+		return this.hoTen;
+	}
 
-    public String getHoTen() {
-        return hoTen;
-    }
+	@Override
+	public int hashCode() {
+		return Objects.hash(MaNH);
+	}
 
-    public void setHoTen(String hoTen) {
-        this.hoTen = hoTen;
-    }
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		NguoiHoc other = (NguoiHoc) obj;
+		return Objects.equals(MaNH, other.MaNH);
+	}
 
-    public Date getNgaySinh() {
-        return ngaySinh;
-    }
+	public String getMaNH() {
+		return MaNH;
+	}
 
-    public void setNgaySinh(Date ngaySinh) {
-        this.ngaySinh = ngaySinh;
-    }
+	public void setMaNH(String MaNH) {
+		this.MaNH = MaNH;
+	}
 
-    public boolean isGioiTinh() {
-        return gioiTinh;
-    }
+	public String getHoTen() {
+		return hoTen;
+	}
 
-    public void setGioiTinh(boolean gioiTinh) {
-        this.gioiTinh = gioiTinh;
-    }
+	public void setHoTen(String hoTen) {
+		this.hoTen = hoTen;
+	}
 
-    public String getDienThoai() {
-        return dienThoai;
-    }
+	public Date getNgaySinh() {
+		return ngaySinh;
+	}
 
-    public void setDienThoai(String dienThoai) {
-        this.dienThoai = dienThoai;
-    }
+	public void setNgaySinh(Date ngaySinh) {
+		this.ngaySinh = ngaySinh;
+	}
 
-    public String getEmail() {
-        return email;
-    }
+	public boolean isGioiTinh() {
+		return gioiTinh;
+	}
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+	public void setGioiTinh(boolean gioiTinh) {
+		this.gioiTinh = gioiTinh;
+	}
 
-    public String getGhiChu() {
-        return ghiChu;
-    }
+	public String getDienThoai() {
+		return dienThoai;
+	}
 
-    public void setGhiChu(String ghiChu) {
-        this.ghiChu = ghiChu;
-    }
+	public void setDienThoai(String dienThoai) {
+		this.dienThoai = dienThoai;
+	}
 
-    public String getMaNV() {
-        return maNV;
-    }
+	public String getEmail() {
+		return email;
+	}
 
-    public void setMaNV(String maNV) {
-        this.maNV = maNV;
-    }
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
-    public Date getNgayDK() {
-        return ngayDK;
-    }
+	public String getGhiChu() {
+		return ghiChu;
+	}
 
-    public void setNgayDK(Date ngayDK) {
-        this.ngayDK = ngayDK;
-    }
-    
-    
-    
+	public void setGhiChu(String ghiChu) {
+		this.ghiChu = ghiChu;
+	}
+
+	public String getMaNV() {
+		return maNV;
+	}
+
+	public void setMaNV(String maNV) {
+		this.maNV = maNV;
+	}
+
+	public Date getNgayDK() {
+		return ngayDK;
+	}
+
+	public void setNgayDK(Date ngayDK) {
+		this.ngayDK = ngayDK;
+	}
+
 }
