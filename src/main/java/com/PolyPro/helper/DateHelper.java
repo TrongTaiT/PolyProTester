@@ -29,6 +29,14 @@ public class DateHelper {
         }
     }
     
+    public static Date toDate(String date){
+        try {
+            return fmt.parse(date);
+        } catch (Exception e) {
+            throw new RuntimeException();
+        }
+    }
+    
     public static String toString(Date date, String pattern){
         fmt.applyPattern(pattern);
         return fmt.format(date);
