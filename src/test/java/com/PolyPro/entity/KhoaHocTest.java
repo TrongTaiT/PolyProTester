@@ -3,7 +3,6 @@ package com.PolyPro.entity;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.testng.annotations.AfterClass;

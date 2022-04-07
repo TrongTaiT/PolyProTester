@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.PolyPro.entity.KhoaHocTest">
+      <class name="com.PolyPro.entity.HocVienTest">
         <methods>
-          <include name="afterClass"/>
-          <include name="getNgayKGTest"/>
-          <include name="beforeClass"/>
+          <include name="getDiemTest"/>
         </methods>
-      </class> <!-- com.PolyPro.entity.KhoaHocTest -->
+      </class> <!-- com.PolyPro.entity.HocVienTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
