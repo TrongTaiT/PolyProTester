@@ -9,10 +9,13 @@ import java.util.List;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
 import com.PolyPro.entity.NhanVien;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class NhanVienDAOTest {
 	
 	static NhanVienDAO dao;
@@ -27,14 +30,14 @@ public class NhanVienDAOTest {
 	}
 	
 	@Test
-	public void testSelectByIdString() {
+	public void testAselectByIdString() {
 		String id = "TeoNV";
 		NhanVien searchNV = dao.selectById(id);
 		assertNotNull(searchNV);
 	}
 
 	@Test
-	public void testInsertNhanVien() {
+	public void testBinsertNhanVien() {
 		NhanVien newNV = new NhanVien();
 		newNV.setMaNV("NVTest");
 		newNV.setHoTen("Test Nhân Viên");
@@ -48,7 +51,7 @@ public class NhanVienDAOTest {
 	}
 
 	@Test
-	public void testUpdateNhanVien() {
+	public void testCupdateNhanVien() {
 		NhanVien updateNV = dao.selectById("NVTest");
 		updateNV.setHoTen("Sửa nhân viên test");
 		updateNV.setMatKhau("123456");
@@ -62,7 +65,7 @@ public class NhanVienDAOTest {
 	}
 
 	@Test
-	public void testResetPassword() {
+	public void testDresetPassword() {
 		NhanVien updatePassword = dao.selectById("NVTest");
 		updatePassword.setMatKhau("456789");
 		dao.update(updatePassword);
@@ -73,7 +76,7 @@ public class NhanVienDAOTest {
 	}
 
 	@Test
-	public void testDeleteString() {
+	public void testEdeleteString() {
 		String id = "NVTest";
 		dao.delete(id);
 		
@@ -83,7 +86,7 @@ public class NhanVienDAOTest {
 	}
 
 	@Test
-	public void testSelectAll() {
+	public void testFselectAll() {
 		List<NhanVien> listNV = dao.selectAll();
 		
 		assertEquals(listNV.size(), 7);

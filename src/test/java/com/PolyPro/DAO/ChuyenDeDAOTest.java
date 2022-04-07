@@ -8,10 +8,13 @@ import static org.junit.Assert.assertTrue;
 import java.util.List;
 
 import org.junit.BeforeClass;
+import org.junit.FixMethodOrder;
+import org.junit.runners.MethodSorters;
 import org.junit.Test;
 
 import com.PolyPro.entity.ChuyenDe;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ChuyenDeDAOTest {
 
 	static ChuyenDeDAO dao;
@@ -22,7 +25,7 @@ public class ChuyenDeDAOTest {
 	}
 
 	@Test
-	public void testSelectById() {
+	public void testAselectById() {
 		String id = "JAV01";
 		ChuyenDe searchCD = dao.selectById(id);
 		
@@ -30,7 +33,7 @@ public class ChuyenDeDAOTest {
 	}
 
 	@Test
-	public void testInsertChuyenDe() {
+	public void testBinsertChuyenDe() {
 		ChuyenDe newCD = new ChuyenDe();
 		newCD.setMaCD("CĐtét");
 		newCD.setTenCD("Chuyên đề test");
@@ -47,7 +50,7 @@ public class ChuyenDeDAOTest {
 	}
 
 	@Test
-	public void testUpdateChuyenDe() {
+	public void testCupdateChuyenDe() {
 		ChuyenDe updateCD = dao.selectById("CĐtét");
 		updateCD.setTenCD("Chuyên đề sửa");
 		updateCD.setHocPhi(2000000);
@@ -63,7 +66,7 @@ public class ChuyenDeDAOTest {
 	}
 
 	@Test
-	public void testDeleteString() {
+	public void testDdeleteString() {
 		String id = "CĐtét";
 		dao.delete(id);
 
@@ -73,7 +76,7 @@ public class ChuyenDeDAOTest {
 	}
 
 	@Test
-	public void testSelectAll() {
+	public void testEselectAll() {
 		List<ChuyenDe> listCD = dao.selectAll();
 		
 		assertEquals(listCD.size(), 21);
