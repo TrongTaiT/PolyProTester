@@ -12,14 +12,6 @@ public class NhanVienTest {
 
 	NhanVien nv;
 
-	@BeforeMethod
-	public void beforeMethod() {
-	}
-
-	@AfterMethod
-	public void afterMethod() {
-	}
-
 	@BeforeClass
 	public void beforeClass() {
 	}

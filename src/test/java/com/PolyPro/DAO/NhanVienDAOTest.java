@@ -92,9 +92,4 @@ public class NhanVienDAOTest {
 		assertEquals(listNV.size(), 7);
 	}
 
-	@Test
-	public void testSelectBySqlStringObjectArray() {
-		fail("Not yet implemented");
-	}
-
 }
