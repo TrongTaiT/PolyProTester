@@ -29,10 +29,10 @@ public class ChuyenDeTest {
 	public void getMaCDTest() {
 		System.out.println("getMaCD");
 		ChuyenDe cd = new ChuyenDe();
-		String maCD = "JAV01";
+		String expected = "JAV01";
 		cd.setMaCD("JAV01");
-		String expectedCD = cd.getMaCD();
-		assertEquals(expectedCD, maCD);
+		String result = cd.getMaCD();
+		assertEquals(result, expected);
 	}
 	
 	@Test
@@ -48,10 +48,10 @@ public class ChuyenDeTest {
 	public void getTenCDTest() {
 		System.out.println("getTenCD");
 		ChuyenDe cd = new ChuyenDe();
-		String tenCD = "Test tên chuyên đề";
+		String expected = "Test tên chuyên đề";
 		cd.setTenCD("Test tên chuyên đề");
-		String expectedCD = cd.getTenCD();
-		assertEquals(expectedCD, tenCD);
+		String result = cd.getTenCD();
+		assertEquals(result, expected);
 	}
 	
 	@Test
@@ -67,10 +67,10 @@ public class ChuyenDeTest {
 	public void getHocPhiTest() {
 		System.out.println("getHocPhi");
 		ChuyenDe cd = new ChuyenDe();
-		double hocPhi = 5555.2222;
+		double expected = 5555.2222;
 		cd.setHocPhi(5555.2222);
-		double expectedCD = cd.getHocPhi();
-		assertTrue(expectedCD == hocPhi);
+		double result = cd.getHocPhi();
+		assertTrue(result == expected);
 	}
 
 	@Test
@@ -86,10 +86,10 @@ public class ChuyenDeTest {
 	public void getThoiLuongTest() {
 		System.out.println("getThoiLuong");
 		ChuyenDe cd = new ChuyenDe();
-		int thoiLuong = 5;
+		int expected = 5;
 		cd.setThoiLuong(5);
-		int expectedCD = cd.getThoiLuong();
-		assertTrue(expectedCD == thoiLuong);
+		int result = cd.getThoiLuong();
+		assertTrue(result == expected);
 	}
 	
 	@Test
@@ -105,10 +105,10 @@ public class ChuyenDeTest {
 	public void getHinhTest() {
 		System.out.println("getHinh");
 		ChuyenDe cd = new ChuyenDe();
-		String hinh = "test.jpg";
+		String expected = "test.jpg";
 		cd.setMaCD("test.jpg");
-		String expectedCD = cd.getMaCD();
-		assertEquals(expectedCD, hinh);
+		String result = cd.getMaCD();
+		assertEquals(result, expected);
 	}
 	
 	@Test
@@ -124,10 +124,10 @@ public class ChuyenDeTest {
 	public void getMoTaTest() {
 		System.out.println("getMoTa");
 		ChuyenDe cd = new ChuyenDe();
-		String moTa = "Test mô tả";
+		String expected = "Test mô tả";
 		cd.setMoTa("Test mô tả");
-		String expectedCD = cd.getMoTa();
-		assertEquals(expectedCD, moTa);
+		String result = cd.getMoTa();
+		assertEquals(result, expected);
 	}
 	
 	@Test
