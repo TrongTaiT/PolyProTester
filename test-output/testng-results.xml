@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-07T16:51:07 ICT" name="Default suite" finished-at="2022-04-07T16:51:07 ICT" duration-ms="122">
+    <groups>
+    </groups>
+    <test started-at="2022-04-07T16:51:07 ICT" name="Default test" finished-at="2022-04-07T16:51:07 ICT" duration-ms="122">
+      <class name="com.PolyPro.entity.ChuyenDeTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="beforeClass" finished-at="2022-04-07T16:51:07 ICT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="getHinhTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="getHinhTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHinhTest -->
+        <test-method signature="getHocPhiTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="getHocPhiTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHocPhiTest -->
+        <test-method signature="getMaCDTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="getMaCDTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaCDTest -->
+        <test-method signature="getMoTaTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="getMoTaTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMoTaTest -->
+        <test-method signature="getTenCDTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="getTenCDTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTenCDTest -->
+        <test-method signature="getThoiLuongTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="getThoiLuongTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getThoiLuongTest -->
+        <test-method signature="setHinhTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="setHinhTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHinhTest -->
+        <test-method signature="setHocPhiTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="setHocPhiTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHocPhiTest -->
+        <test-method signature="setMaCDTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="setMaCDTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaCDTest -->
+        <test-method signature="setMoTaTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="setMoTaTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMoTaTest -->
+        <test-method signature="setTenCDTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="setTenCDTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTenCDTest -->
+        <test-method signature="setThoiLuongTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="setThoiLuongTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setThoiLuongTest -->
+        <test-method signature="toStringTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="toStringTest" finished-at="2022-04-07T16:51:07 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toStringTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@13e39c73]" started-at="2022-04-07T16:51:07 ICT" name="afterClass" finished-at="2022-04-07T16:51:07 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.PolyPro.entity.ChuyenDeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
