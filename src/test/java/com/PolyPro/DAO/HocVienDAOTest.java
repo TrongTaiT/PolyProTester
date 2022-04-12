@@ -7,10 +7,13 @@ import static org.junit.Assert.assertTrue;
 import java.util.List;
 
 import org.junit.BeforeClass;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
 import com.PolyPro.entity.HocVien;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class HocVienDAOTest {
 
 	private static HocVienDAO dao;
@@ -21,14 +24,14 @@ public class HocVienDAOTest {
 	}
 
 	@Test
-	public void testSelectAll() {
+	public void testASelectAll() {
 		List<HocVien> listHV = dao.selectAll();
 
 		assertTrue(listHV.size() > 0);
 	}
 
 	@Test
-	public void testSelectById() {
+	public void testBSelectById() {
 		HocVien newHV = dao.selectById("1");
 
 		assertNotNull(newHV);
@@ -36,7 +39,7 @@ public class HocVienDAOTest {
 
 	// Không phù hợp nếu vị trí cuối vừa bị xoá
 	@Test
-	public void testInsertHocVien() {
+	public void testCInsertHocVien() {
 		List<HocVien> listHV = dao.selectAll();
 		HocVien lastPositionHV = listHV.get(listHV.size() - 1);
 
@@ -53,14 +56,7 @@ public class HocVienDAOTest {
 	}
 
 	@Test
-	public void testSelectByMaKH_MaNH() {
-		HocVien hv = dao.selectByMaKH_MaNH(2, "PS03561");
-
-		assertNotNull(hv);
-	}
-
-	@Test
-	public void testUpdateHocVien() {
+	public void testDUpdateHocVien() {
 		HocVien hv = dao.selectByMaKH_MaNH(2, "PS03561");
 		hv.setDiem(0);
 
@@ -72,7 +68,14 @@ public class HocVienDAOTest {
 	}
 
 	@Test
-	public void testDeleteString() {
+	public void testESelectByMaKH_MaNH() {
+		HocVien hv = dao.selectByMaKH_MaNH(2, "PS03561");
+
+		assertNotNull(hv);
+	}
+
+	@Test
+	public void testFDelete() {
 		String id = "46";
 		
 		dao.delete(id);

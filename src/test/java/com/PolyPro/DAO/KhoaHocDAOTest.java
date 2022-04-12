@@ -8,11 +8,14 @@ import static org.junit.Assert.assertTrue;
 import java.util.List;
 
 import org.junit.BeforeClass;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
 import com.PolyPro.entity.KhoaHoc;
 import com.PolyPro.helper.DateHelper;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class KhoaHocDAOTest {
 
 	private static KhoaHocDAO dao;
@@ -23,21 +26,21 @@ public class KhoaHocDAOTest {
 	}
 
 	@Test
-	public void testSelectAll() {
+	public void testASelectAll() {
 		List<KhoaHoc> listKH = dao.selectAll();
 
 		assertEquals(listKH.size(), 8);
 	}
 
 	@Test
-	public void testSelectById() {
+	public void testBSelectById() {
 		KhoaHoc kh = dao.selectById("1");
 		
 		assertNotNull(kh);
 	}
 
 	@Test
-	public void testInsertKhoaHoc() {
+	public void testCInsertKhoaHoc() {
 		List<KhoaHoc> listKH = dao.selectAll();
 		KhoaHoc lastPositionKH = listKH.get(listKH.size() - 1);
 
@@ -57,7 +60,7 @@ public class KhoaHocDAOTest {
 	}
 
 	@Test
-	public void testUpdateKhoaHoc() {
+	public void testDUpdateKhoaHoc() {
 		KhoaHoc kh = dao.selectById("10");
 		kh.setHocPhi(345);
 		kh.setThoiLuong(121);
@@ -71,7 +74,7 @@ public class KhoaHocDAOTest {
 	}
 
 	@Test
-	public void testDeleteString() {
+	public void testFDeleteString() {
 		String id = "10";
 		dao.delete(id);
 
@@ -81,7 +84,7 @@ public class KhoaHocDAOTest {
 	}
 
 	@Test
-	public void testSelectByChuyenDe() {
+	public void testGSelectByChuyenDe() {
 		String maCD = "JAV01";
 		
 		List<KhoaHoc> listCD = dao.selectByChuyenDe(maCD);
