@@ -1,17 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="16" total="17" passed="1" failed="0" skipped="0">
+<testng-results ignored="5" total="53" passed="48" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-08T01:06:00 ICT" name="Default suite" finished-at="2022-04-08T01:06:00 ICT" duration-ms="106">
+  <suite started-at="2022-04-14T21:14:10 ICT" name="Suite" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1932">
     <groups>
     </groups>
-    <test started-at="2022-04-08T01:06:00 ICT" name="Default test" finished-at="2022-04-08T01:06:00 ICT" duration-ms="106">
-      <class name="com.PolyPro.entity.NguoiHocTest">
-        <test-method signature="toStringTest()[pri:0, instance:com.PolyPro.entity.NguoiHocTest@1534f01b]" started-at="2022-04-08T01:06:00 ICT" name="toStringTest" finished-at="2022-04-08T01:06:00 ICT" duration-ms="60" status="PASS">
+    <test started-at="2022-04-14T21:14:10 ICT" name="TestNGDAO" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1655">
+      <class name="com.PolyPro.DAO.ChuyenDeDAOTestNG">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.PolyPro.DAO.ChuyenDeDAOTestNG@7e6f74c]" started-at="2022-04-14T21:14:12 ICT" name="beforeClass" finished-at="2022-04-14T21:14:12 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="insertTest()[pri:1, instance:com.PolyPro.DAO.ChuyenDeDAOTestNG@7e6f74c]" started-at="2022-04-14T21:14:12 ICT" name="insertTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertTest -->
+        <test-method signature="selectByIdTest()[pri:2, instance:com.PolyPro.DAO.ChuyenDeDAOTestNG@7e6f74c]" started-at="2022-04-14T21:14:12 ICT" name="selectByIdTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectByIdTest -->
+        <test-method signature="updateTest()[pri:3, instance:com.PolyPro.DAO.ChuyenDeDAOTestNG@7e6f74c]" started-at="2022-04-14T21:14:12 ICT" name="updateTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTest -->
+        <test-method signature="deleteTest()[pri:4, instance:com.PolyPro.DAO.ChuyenDeDAOTestNG@7e6f74c]" started-at="2022-04-14T21:14:12 ICT" name="deleteTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.PolyPro.DAO.ChuyenDeDAOTestNG@7e6f74c]" started-at="2022-04-14T21:14:12 ICT" name="afterClass" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.PolyPro.DAO.ChuyenDeDAOTestNG -->
+      <class name="com.PolyPro.DAO.NhanVienDAOTestNG">
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.PolyPro.DAO.NhanVienDAOTestNG@327514f]" started-at="2022-04-14T21:14:10 ICT" name="setUpBeforeClass" finished-at="2022-04-14T21:14:10 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method signature="insertTest()[pri:1, instance:com.PolyPro.DAO.NhanVienDAOTestNG@327514f]" started-at="2022-04-14T21:14:10 ICT" name="insertTest" finished-at="2022-04-14T21:14:11 ICT" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertTest -->
+        <test-method signature="selectByIdTest()[pri:2, instance:com.PolyPro.DAO.NhanVienDAOTestNG@327514f]" started-at="2022-04-14T21:14:11 ICT" name="selectByIdTest" finished-at="2022-04-14T21:14:11 ICT" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectByIdTest -->
+        <test-method signature="updateTest()[pri:3, instance:com.PolyPro.DAO.NhanVienDAOTestNG@327514f]" started-at="2022-04-14T21:14:11 ICT" name="updateTest" finished-at="2022-04-14T21:14:11 ICT" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTest -->
+        <test-method signature="resetPasswordTest()[pri:4, instance:com.PolyPro.DAO.NhanVienDAOTestNG@327514f]" started-at="2022-04-14T21:14:11 ICT" name="resetPasswordTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPasswordTest -->
+        <test-method signature="deleteTest()[pri:5, instance:com.PolyPro.DAO.NhanVienDAOTestNG@327514f]" started-at="2022-04-14T21:14:12 ICT" name="deleteTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+        <test-method is-config="true" signature="setUpAfterClass()[pri:0, instance:com.PolyPro.DAO.NhanVienDAOTestNG@327514f]" started-at="2022-04-14T21:14:12 ICT" name="setUpAfterClass" finished-at="2022-04-14T21:14:12 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAfterClass -->
+      </class> <!-- com.PolyPro.DAO.NhanVienDAOTestNG -->
+    </test> <!-- TestNGDAO -->
+    <test started-at="2022-04-14T21:14:12 ICT" name="Test" finished-at="2022-04-14T21:14:12 ICT" duration-ms="184">
+      <class name="com.PolyPro.entity.NhanVienTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.PolyPro.entity.NhanVienTest@6f4a47c7]" started-at="2022-04-14T21:14:12 ICT" name="beforeClass" finished-at="2022-04-14T21:14:12 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="getHoTenTest()[pri:0, instance:com.PolyPro.entity.NhanVienTest@6f4a47c7]" started-at="2022-04-14T21:14:12 ICT" name="getHoTenTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHoTenTest -->
+        <test-method signature="getMaNVTest()[pri:0, instance:com.PolyPro.entity.NhanVienTest@6f4a47c7]" started-at="2022-04-14T21:14:12 ICT" name="getMaNVTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaNVTest -->
+        <test-method signature="getMatKhauTest()[pri:0, instance:com.PolyPro.entity.NhanVienTest@6f4a47c7]" started-at="2022-04-14T21:14:12 ICT" name="getMatKhauTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMatKhauTest -->
+        <test-method signature="isVaiTroTest()[pri:0, instance:com.PolyPro.entity.NhanVienTest@6f4a47c7]" started-at="2022-04-14T21:14:12 ICT" name="isVaiTroTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isVaiTroTest -->
+        <test-method signature="setHoTenTest()[pri:0, instance:com.PolyPro.entity.NhanVienTest@6f4a47c7]" started-at="2022-04-14T21:14:12 ICT" name="setHoTenTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHoTenTest -->
+        <test-method signature="setMaNVTest()[pri:0, instance:com.PolyPro.entity.NhanVienTest@6f4a47c7]" started-at="2022-04-14T21:14:12 ICT" name="setMaNVTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaNVTest -->
+        <test-method signature="setMatKhauTest()[pri:0, instance:com.PolyPro.entity.NhanVienTest@6f4a47c7]" started-at="2022-04-14T21:14:12 ICT" name="setMatKhauTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMatKhauTest -->
+        <test-method signature="setVaiTroTest()[pri:0, instance:com.PolyPro.entity.NhanVienTest@6f4a47c7]" started-at="2022-04-14T21:14:12 ICT" name="setVaiTroTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setVaiTroTest -->
+        <test-method signature="toStringTest()[pri:0, instance:com.PolyPro.entity.NhanVienTest@6f4a47c7]" started-at="2022-04-14T21:14:12 ICT" name="toStringTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toStringTest -->
-      </class> <!-- com.PolyPro.entity.NguoiHocTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.PolyPro.entity.NhanVienTest@6f4a47c7]" started-at="2022-04-14T21:14:12 ICT" name="afterClass" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.PolyPro.entity.NhanVienTest -->
+      <class name="com.PolyPro.entity.KhoaHocTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="beforeClass" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="getGhiChuTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="getGhiChuTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGhiChuTest -->
+        <test-method signature="getHocPhiTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="getHocPhiTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHocPhiTest -->
+        <test-method signature="getMaCDTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="getMaCDTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaCDTest -->
+        <test-method signature="getMaKHTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="getMaKHTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaKHTest -->
+        <test-method signature="getMaNVTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="getMaNVTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaNVTest -->
+        <test-method signature="getNgayKGTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="getNgayKGTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNgayKGTest -->
+        <test-method signature="getNgayTaoTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="getNgayTaoTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNgayTaoTest -->
+        <test-method signature="getThoiLuongTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="getThoiLuongTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getThoiLuongTest -->
+        <test-method signature="setGhiChuTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="setGhiChuTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setGhiChuTest -->
+        <test-method signature="setHocPhiTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="setHocPhiTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHocPhiTest -->
+        <test-method signature="setMaCDTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="setMaCDTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaCDTest -->
+        <test-method signature="setMaKHTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="setMaKHTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaKHTest -->
+        <test-method signature="setMaNVTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="setMaNVTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaNVTest -->
+        <test-method signature="setNgayKGTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="setNgayKGTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNgayKGTest -->
+        <test-method signature="setNgayTaoTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="setNgayTaoTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNgayTaoTest -->
+        <test-method signature="setThoiLuongTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="setThoiLuongTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setThoiLuongTest -->
+        <test-method signature="toStringTest()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="toStringTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toStringTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.PolyPro.entity.KhoaHocTest@3d34d211]" started-at="2022-04-14T21:14:12 ICT" name="afterClass" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.PolyPro.entity.KhoaHocTest -->
+      <class name="com.PolyPro.entity.ChuyenDeTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="beforeClass" finished-at="2022-04-14T21:14:12 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="getHinhTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="getHinhTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHinhTest -->
+        <test-method signature="getHocPhiTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="getHocPhiTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHocPhiTest -->
+        <test-method signature="getMaCDTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="getMaCDTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaCDTest -->
+        <test-method signature="getMoTaTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="getMoTaTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMoTaTest -->
+        <test-method signature="getTenCDTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="getTenCDTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTenCDTest -->
+        <test-method signature="getThoiLuongTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="getThoiLuongTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getThoiLuongTest -->
+        <test-method signature="setHinhTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="setHinhTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHinhTest -->
+        <test-method signature="setHocPhiTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="setHocPhiTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHocPhiTest -->
+        <test-method signature="setMaCDTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="setMaCDTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaCDTest -->
+        <test-method signature="setMoTaTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="setMoTaTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMoTaTest -->
+        <test-method signature="setTenCDTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="setTenCDTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTenCDTest -->
+        <test-method signature="setThoiLuongTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="setThoiLuongTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setThoiLuongTest -->
+        <test-method signature="toStringTest()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="toStringTest" finished-at="2022-04-14T21:14:12 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toStringTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.PolyPro.entity.ChuyenDeTest@ae13544]" started-at="2022-04-14T21:14:12 ICT" name="afterClass" finished-at="2022-04-14T21:14:12 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.PolyPro.entity.ChuyenDeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.PolyPro.entity.HocVienTest">
+      <class name="com.PolyPro.DAO.ChuyenDeDAOTestNG">
         <methods>
-          <include name="getDiemTest"/>
+          <include name="insertTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.PolyPro.entity.HocVienTest -->
+      </class> <!-- com.PolyPro.DAO.ChuyenDeDAOTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

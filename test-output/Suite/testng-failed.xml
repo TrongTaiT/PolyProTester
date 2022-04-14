@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNGDAO(failed)">
+    <classes>
+      <class name="com.PolyPro.DAO.NhanVienDAOTestNG">
+        <methods>
+          <include name="setUpBeforeClass"/>
+          <include name="aInsertTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.PolyPro.DAO.NhanVienDAOTestNG -->
+    </classes>
+  </test> <!-- TestNGDAO(failed) -->
+</suite> <!-- Failed suite [Suite] -->
